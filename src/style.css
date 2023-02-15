@@ -1,0 +1,193 @@
+body
+{
+    padding-right: 2%;
+    padding-left:2%;
+    background-color: rgb(94, 94, 94);
+    color: white;
+    font-family: sans-serif;
+    font-size: 14pt;
+    width: 90%;
+}
+h1
+{
+    font-size: 50pt;
+}
+a
+{
+    color: white;
+    text-decoration: none;
+}
+
+nav .cabecalho-menu
+{
+    margin-bottom: 1px solid #D6D0C9;
+}
+
+.cabecalho-menu
+{
+    width: 100%;
+    text-decoration: none;
+}
+
+.cabecalho-menu ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1px solid #D6D0C9;
+}
+
+#inicio
+{
+    text-align: left;
+    border-top: 1px solid #D6D0C9;
+    height: 100vh;
+}
+
+#inicio-itens p
+{
+    width: 50%;
+}
+
+#inicio-itens
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#inicio img
+{
+    padding-top: 2%;
+    width: 20%;
+    height: 30%;
+}
+
+#sobre
+{
+    border-top: 1px solid #D6D0C9;
+    text-align: left;
+    height: 100vh;
+}
+
+#sobre-itens
+{
+    text-align: left;
+    border-top: 1px solid #D6D0C9;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+#sobre-itens p
+{
+    width: 50%;
+}
+
+#sobre img
+{
+    padding-top: 2%;
+    width: 20%;
+    height: 20%;
+}
+
+#formacao
+{
+    border-top: 1px solid #D6D0C9;  
+    text-align: left;
+    width: 100%;
+    height: 100vh;
+}
+
+#projetos
+{
+    border-top: 1px solid #D6D0C9;  
+    text-align: left;
+    width: 100%;
+    height: 100vh;
+}
+
+#experiencia
+{
+    border-top: 1px solid #D6D0C9;  
+    text-align: left;
+    width: 100%;
+    height: 100vh;
+}
+
+#contatos
+{
+    border-top: 1px solid #D6D0C9;  
+    text-align: left;
+    width: 100%;
+    height: 100vh;
+}
+
+#contatos-itens
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#contatos ul img
+{
+    width: 40%;
+    height: 40%;
+}
+@media(max-width: 1920px)
+{
+    body
+    {
+        width: 1680px;
+    }
+}
+
+@media(max-width: 1680px)
+{
+    body
+    {
+        width: 1600px;
+    }
+}
+
+@media(max-width: 1600px)
+{
+    body
+    {
+        width: 1440px;
+    }
+}
+
+@media(max-width: 1440px)
+{
+    body
+    {
+        width: 1280px;
+    }
+}
+
+@media(max-width: 1376px)
+{
+    body
+    {
+        width: 1280px;
+    }
+}
+
+@media(max-width: 1280px)
+{
+    body
+    {
+        width: 720px;
+    }
+}
+@media(max-width: 720px)
+{
+    body
+    {
+        width: 480px;
+    }
+}
