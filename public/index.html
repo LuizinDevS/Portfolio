@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="..\src\style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="scripts.js"></script>
+    <title>Portfólio</title>
+</head>
+<body>
+    <nav id="menu">
+        <ul><a href="#sobre">Sobre</a></ul>
+        <ul><a href="#formacao">Formação</a></ul>
+        <ul><a href="#projetos">Projetos</a></ul>
+        <ul><a href="#experiencia">Experiência</a></ul>
+        <ul><a href="#contatos">Contatos</a></ul>
+    </nav>
+
+    <section id="sobre">
+        <h1>Sobre mim: </h1>
+        <div class="sobreConteudo">
+            <p>Meu nome é Luiz, tenho 20 anos, sou Analista de Sistemas e estou cursando 
+                Análise e Desenvolvimento de Sistemas. Gosto muito da área de tecnologia, principalmente da programação, 
+                aqui neste portfólio você pode conferir alguns dos projetos que eu desenvolvi ou tive alguma participação.
+            </p>
+            <img src="..\src\assets\foto_padrao.jpeg" alt="Uma foto minha">
+        </div>
+    </section>
+
+    <section id="formacao">
+        <h1>Formações acadêmicas: </h1>
+        <div id="formacaoConteudo">
+            <li>Curso Complementar: Formação JavaScript para Back-End | Alura (Fevereiro/2023 até Fevereiro/2023)</li>
+            <li>Curso Técnico: Desenvolvimento de Sistemas | SENAI (Outubro/2021 até Maio/2023)</li>
+            <li>Curso Complementar: Fundamentos do Scrum | Scrum Alliance (Agosto/2023 até Agosto/2023)</li>
+            <li>Curso Superior: Análise e Desenvolvimento de Sistemas | UNINTER (Agosto/2023 até 2026)</li>
+        </div>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="..\src\assets\Fundamentos_JavaScript_Alura.jpg" alt="Certificado de Conclusão do Curso de Fundamentos do JavaScript da Alura">
+                </div>
+                <div class="swiper-slide">
+                    <img src="..\src\assets\Arrays_JavaScript_Alura.jpg" alt="Certificado de Conclusão do Curso 'JavaScript: Programação Orientada a Objetos da Alura' ">
+                </div>
+                <div class="swiper-slide">
+                    <img src="..\src\assets\Objetos_JavaScript_Alura.jpg" alt="Certificado de Conclusão do Curso de Objetos do JavaScript da Alura">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+            <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+            <script>
+                var swiper = new Swiper('.swiper', {
+                    loop: true,
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                });
+            </script>
+        </div>           
+    </section>
+
+    <section id="projetos">
+        <h1>Projetos: </h1>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="..\src\assets\cassino.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="..\src\assets\portfolio.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="..\src\assets\bibliotec.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper', {
+                loop: true,
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+        </script>
+    </section>
+
+    <section id="experiencia">
+        <h1>Experiência Profissional: </h1>
+        <div id="experienciaConteudo">
+            <li>Estagiário de Testes de Software / QA na Praxio by NSTech (Maio/2022 - Dezembro/2022)</>
+            <li>Analista de Testes de Software Trainee / QA na Praxio by NSTech (Dezembro/2022 - Junho/2023)</li>            
+            <li>Analista de Sistemas Trainee na Praxio by NSTech (Julho/2023 - até o momento)</li>    
+        </div>
+    </section>
+    <section id="contatos">
+        <h1>Contatos: </h1>
+        <div id="contatosConteudo"> 
+            <ul>
+                <a href="https://www.instagram.com/luizindevs/" name="instagram" target="_blank">
+                    <img src="..\src\assets\instagram.png"> @luizindevs
+                </a>
+            </ul>       
+            <ul>
+                <a href="https://www.linkedin.com/in/luiz-ot%C3%A1vio-de-souza-porto-neves-970963236/" name="linkedin" target="_blank">
+                    <img src="..\src\assets\linkedin.png"> Luiz Otavio de Souza Porto Neves
+                </a>
+            </ul>
+            <ul>
+                <a href="https://github.com/LuizinDevS" name="github" target="_blank">
+                    <img src="..\src\assets\github-logo.png"> LuizinDevS
+                </a>
+            </ul>
+    </section>
+    </section>
+</body>
+</html>
